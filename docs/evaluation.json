@@ -1,0 +1,48 @@
+{
+  "dataset": "8 held-out header aliases; familiar synthetic value distributions",
+  "correct": 8,
+  "total": 8,
+  "cases": [
+    {
+      "header": "client_ref",
+      "expected": "customer_id",
+      "predicted": "customer_id"
+    },
+    {
+      "header": "customer_full_name",
+      "expected": "full_name",
+      "predicted": "full_name"
+    },
+    {
+      "header": "email_address",
+      "expected": "email",
+      "predicted": "email"
+    },
+    {
+      "header": "telephone_no",
+      "expected": "phone",
+      "predicted": "phone"
+    },
+    {
+      "header": "postal_zip_code",
+      "expected": "postal_code",
+      "predicted": "postal_code"
+    },
+    {
+      "header": "signup_timestamp",
+      "expected": "joined_date",
+      "predicted": "joined_date"
+    },
+    {
+      "header": "unpaid_balance",
+      "expected": "balance",
+      "predicted": "balance"
+    },
+    {
+      "header": "account_enabled",
+      "expected": "active",
+      "predicted": "active"
+    }
+  ],
+  "limitations": "Small author-written smoke set; no real-world accuracy claim. Values share distributions with training."
+}

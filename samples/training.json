@@ -1,0 +1,722 @@
+[
+  {
+    "header": "customer id",
+    "field": "customer_id",
+    "values": [
+      "C-1001",
+      "C-1002",
+      "C-1003"
+    ]
+  },
+  {
+    "header": "account id",
+    "field": "customer_id",
+    "values": [
+      "C-1001",
+      "C-1002",
+      "C-1003"
+    ]
+  },
+  {
+    "header": "client key",
+    "field": "customer_id",
+    "values": [
+      "C-1001",
+      "C-1002",
+      "C-1003"
+    ]
+  },
+  {
+    "header": "customer identifier",
+    "field": "customer_id",
+    "values": [
+      "C-1001",
+      "C-1002",
+      "C-1003"
+    ]
+  },
+  {
+    "header": "cust code",
+    "field": "customer_id",
+    "values": [
+      "C-1001",
+      "C-1002",
+      "C-1003"
+    ]
+  },
+  {
+    "header": "account number",
+    "field": "customer_id",
+    "values": [
+      "C-1001",
+      "C-1002",
+      "C-1003"
+    ]
+  },
+  {
+    "header": "client id",
+    "field": "customer_id",
+    "values": [
+      "C-1001",
+      "C-1002",
+      "C-1003"
+    ]
+  },
+  {
+    "header": "record id",
+    "field": "customer_id",
+    "values": [
+      "C-1001",
+      "C-1002",
+      "C-1003"
+    ]
+  },
+  {
+    "header": "external id",
+    "field": "customer_id",
+    "values": [
+      "C-1001",
+      "C-1002",
+      "C-1003"
+    ]
+  },
+  {
+    "header": "customer key",
+    "field": "customer_id",
+    "values": [
+      "C-1001",
+      "C-1002",
+      "C-1003"
+    ]
+  },
+  {
+    "header": "full name",
+    "field": "full_name",
+    "values": [
+      "Avery Stone",
+      "Jordan Lane",
+      "Morgan Reed"
+    ]
+  },
+  {
+    "header": "customer name",
+    "field": "full_name",
+    "values": [
+      "Avery Stone",
+      "Jordan Lane",
+      "Morgan Reed"
+    ]
+  },
+  {
+    "header": "client name",
+    "field": "full_name",
+    "values": [
+      "Avery Stone",
+      "Jordan Lane",
+      "Morgan Reed"
+    ]
+  },
+  {
+    "header": "contact name",
+    "field": "full_name",
+    "values": [
+      "Avery Stone",
+      "Jordan Lane",
+      "Morgan Reed"
+    ]
+  },
+  {
+    "header": "display name",
+    "field": "full_name",
+    "values": [
+      "Avery Stone",
+      "Jordan Lane",
+      "Morgan Reed"
+    ]
+  },
+  {
+    "header": "person name",
+    "field": "full_name",
+    "values": [
+      "Avery Stone",
+      "Jordan Lane",
+      "Morgan Reed"
+    ]
+  },
+  {
+    "header": "account holder",
+    "field": "full_name",
+    "values": [
+      "Avery Stone",
+      "Jordan Lane",
+      "Morgan Reed"
+    ]
+  },
+  {
+    "header": "recipient name",
+    "field": "full_name",
+    "values": [
+      "Avery Stone",
+      "Jordan Lane",
+      "Morgan Reed"
+    ]
+  },
+  {
+    "header": "legal name",
+    "field": "full_name",
+    "values": [
+      "Avery Stone",
+      "Jordan Lane",
+      "Morgan Reed"
+    ]
+  },
+  {
+    "header": "name",
+    "field": "full_name",
+    "values": [
+      "Avery Stone",
+      "Jordan Lane",
+      "Morgan Reed"
+    ]
+  },
+  {
+    "header": "email",
+    "field": "email",
+    "values": [
+      "avery@example.test",
+      "jordan@example.test",
+      "morgan@example.test"
+    ]
+  },
+  {
+    "header": "email address",
+    "field": "email",
+    "values": [
+      "avery@example.test",
+      "jordan@example.test",
+      "morgan@example.test"
+    ]
+  },
+  {
+    "header": "contact email",
+    "field": "email",
+    "values": [
+      "avery@example.test",
+      "jordan@example.test",
+      "morgan@example.test"
+    ]
+  },
+  {
+    "header": "customer email",
+    "field": "email",
+    "values": [
+      "avery@example.test",
+      "jordan@example.test",
+      "morgan@example.test"
+    ]
+  },
+  {
+    "header": "mail address",
+    "field": "email",
+    "values": [
+      "avery@example.test",
+      "jordan@example.test",
+      "morgan@example.test"
+    ]
+  },
+  {
+    "header": "electronic mail",
+    "field": "email",
+    "values": [
+      "avery@example.test",
+      "jordan@example.test",
+      "morgan@example.test"
+    ]
+  },
+  {
+    "header": "primary email",
+    "field": "email",
+    "values": [
+      "avery@example.test",
+      "jordan@example.test",
+      "morgan@example.test"
+    ]
+  },
+  {
+    "header": "email contact",
+    "field": "email",
+    "values": [
+      "avery@example.test",
+      "jordan@example.test",
+      "morgan@example.test"
+    ]
+  },
+  {
+    "header": "client email",
+    "field": "email",
+    "values": [
+      "avery@example.test",
+      "jordan@example.test",
+      "morgan@example.test"
+    ]
+  },
+  {
+    "header": "e mail",
+    "field": "email",
+    "values": [
+      "avery@example.test",
+      "jordan@example.test",
+      "morgan@example.test"
+    ]
+  },
+  {
+    "header": "phone",
+    "field": "phone",
+    "values": [
+      "+1 212 555 0101",
+      "+1 212 555 0102",
+      "+1 212 555 0103"
+    ]
+  },
+  {
+    "header": "phone number",
+    "field": "phone",
+    "values": [
+      "+1 212 555 0101",
+      "+1 212 555 0102",
+      "+1 212 555 0103"
+    ]
+  },
+  {
+    "header": "telephone",
+    "field": "phone",
+    "values": [
+      "+1 212 555 0101",
+      "+1 212 555 0102",
+      "+1 212 555 0103"
+    ]
+  },
+  {
+    "header": "mobile number",
+    "field": "phone",
+    "values": [
+      "+1 212 555 0101",
+      "+1 212 555 0102",
+      "+1 212 555 0103"
+    ]
+  },
+  {
+    "header": "cell phone",
+    "field": "phone",
+    "values": [
+      "+1 212 555 0101",
+      "+1 212 555 0102",
+      "+1 212 555 0103"
+    ]
+  },
+  {
+    "header": "contact phone",
+    "field": "phone",
+    "values": [
+      "+1 212 555 0101",
+      "+1 212 555 0102",
+      "+1 212 555 0103"
+    ]
+  },
+  {
+    "header": "mobile",
+    "field": "phone",
+    "values": [
+      "+1 212 555 0101",
+      "+1 212 555 0102",
+      "+1 212 555 0103"
+    ]
+  },
+  {
+    "header": "tel number",
+    "field": "phone",
+    "values": [
+      "+1 212 555 0101",
+      "+1 212 555 0102",
+      "+1 212 555 0103"
+    ]
+  },
+  {
+    "header": "telephone number",
+    "field": "phone",
+    "values": [
+      "+1 212 555 0101",
+      "+1 212 555 0102",
+      "+1 212 555 0103"
+    ]
+  },
+  {
+    "header": "primary phone",
+    "field": "phone",
+    "values": [
+      "+1 212 555 0101",
+      "+1 212 555 0102",
+      "+1 212 555 0103"
+    ]
+  },
+  {
+    "header": "postal code",
+    "field": "postal_code",
+    "values": [
+      "02108",
+      "10001",
+      "94103"
+    ]
+  },
+  {
+    "header": "zip code",
+    "field": "postal_code",
+    "values": [
+      "02108",
+      "10001",
+      "94103"
+    ]
+  },
+  {
+    "header": "zip",
+    "field": "postal_code",
+    "values": [
+      "02108",
+      "10001",
+      "94103"
+    ]
+  },
+  {
+    "header": "postal",
+    "field": "postal_code",
+    "values": [
+      "02108",
+      "10001",
+      "94103"
+    ]
+  },
+  {
+    "header": "mailing zip",
+    "field": "postal_code",
+    "values": [
+      "02108",
+      "10001",
+      "94103"
+    ]
+  },
+  {
+    "header": "customer zip",
+    "field": "postal_code",
+    "values": [
+      "02108",
+      "10001",
+      "94103"
+    ]
+  },
+  {
+    "header": "address zip",
+    "field": "postal_code",
+    "values": [
+      "02108",
+      "10001",
+      "94103"
+    ]
+  },
+  {
+    "header": "billing postal",
+    "field": "postal_code",
+    "values": [
+      "02108",
+      "10001",
+      "94103"
+    ]
+  },
+  {
+    "header": "zipcode",
+    "field": "postal_code",
+    "values": [
+      "02108",
+      "10001",
+      "94103"
+    ]
+  },
+  {
+    "header": "postal zip",
+    "field": "postal_code",
+    "values": [
+      "02108",
+      "10001",
+      "94103"
+    ]
+  },
+  {
+    "header": "joined date",
+    "field": "joined_date",
+    "values": [
+      "2025-01-03",
+      "2025-07-19",
+      "2026-02-11"
+    ]
+  },
+  {
+    "header": "signup date",
+    "field": "joined_date",
+    "values": [
+      "2025-01-03",
+      "2025-07-19",
+      "2026-02-11"
+    ]
+  },
+  {
+    "header": "registration date",
+    "field": "joined_date",
+    "values": [
+      "2025-01-03",
+      "2025-07-19",
+      "2026-02-11"
+    ]
+  },
+  {
+    "header": "created date",
+    "field": "joined_date",
+    "values": [
+      "2025-01-03",
+      "2025-07-19",
+      "2026-02-11"
+    ]
+  },
+  {
+    "header": "enrollment date",
+    "field": "joined_date",
+    "values": [
+      "2025-01-03",
+      "2025-07-19",
+      "2026-02-11"
+    ]
+  },
+  {
+    "header": "account opened",
+    "field": "joined_date",
+    "values": [
+      "2025-01-03",
+      "2025-07-19",
+      "2026-02-11"
+    ]
+  },
+  {
+    "header": "join date",
+    "field": "joined_date",
+    "values": [
+      "2025-01-03",
+      "2025-07-19",
+      "2026-02-11"
+    ]
+  },
+  {
+    "header": "member since",
+    "field": "joined_date",
+    "values": [
+      "2025-01-03",
+      "2025-07-19",
+      "2026-02-11"
+    ]
+  },
+  {
+    "header": "date joined",
+    "field": "joined_date",
+    "values": [
+      "2025-01-03",
+      "2025-07-19",
+      "2026-02-11"
+    ]
+  },
+  {
+    "header": "onboarded date",
+    "field": "joined_date",
+    "values": [
+      "2025-01-03",
+      "2025-07-19",
+      "2026-02-11"
+    ]
+  },
+  {
+    "header": "balance",
+    "field": "balance",
+    "values": [
+      "12.50",
+      "0.00",
+      "103.25"
+    ]
+  },
+  {
+    "header": "account balance",
+    "field": "balance",
+    "values": [
+      "12.50",
+      "0.00",
+      "103.25"
+    ]
+  },
+  {
+    "header": "amount due",
+    "field": "balance",
+    "values": [
+      "12.50",
+      "0.00",
+      "103.25"
+    ]
+  },
+  {
+    "header": "outstanding amount",
+    "field": "balance",
+    "values": [
+      "12.50",
+      "0.00",
+      "103.25"
+    ]
+  },
+  {
+    "header": "credit balance",
+    "field": "balance",
+    "values": [
+      "12.50",
+      "0.00",
+      "103.25"
+    ]
+  },
+  {
+    "header": "current balance",
+    "field": "balance",
+    "values": [
+      "12.50",
+      "0.00",
+      "103.25"
+    ]
+  },
+  {
+    "header": "total due",
+    "field": "balance",
+    "values": [
+      "12.50",
+      "0.00",
+      "103.25"
+    ]
+  },
+  {
+    "header": "open balance",
+    "field": "balance",
+    "values": [
+      "12.50",
+      "0.00",
+      "103.25"
+    ]
+  },
+  {
+    "header": "amount owed",
+    "field": "balance",
+    "values": [
+      "12.50",
+      "0.00",
+      "103.25"
+    ]
+  },
+  {
+    "header": "balance amount",
+    "field": "balance",
+    "values": [
+      "12.50",
+      "0.00",
+      "103.25"
+    ]
+  },
+  {
+    "header": "active",
+    "field": "active",
+    "values": [
+      "true",
+      "false",
+      "true"
+    ]
+  },
+  {
+    "header": "is active",
+    "field": "active",
+    "values": [
+      "true",
+      "false",
+      "true"
+    ]
+  },
+  {
+    "header": "enabled",
+    "field": "active",
+    "values": [
+      "true",
+      "false",
+      "true"
+    ]
+  },
+  {
+    "header": "account active",
+    "field": "active",
+    "values": [
+      "true",
+      "false",
+      "true"
+    ]
+  },
+  {
+    "header": "active flag",
+    "field": "active",
+    "values": [
+      "true",
+      "false",
+      "true"
+    ]
+  },
+  {
+    "header": "is enabled",
+    "field": "active",
+    "values": [
+      "true",
+      "false",
+      "true"
+    ]
+  },
+  {
+    "header": "currently active",
+    "field": "active",
+    "values": [
+      "true",
+      "false",
+      "true"
+    ]
+  },
+  {
+    "header": "activation status",
+    "field": "active",
+    "values": [
+      "true",
+      "false",
+      "true"
+    ]
+  },
+  {
+    "header": "active status",
+    "field": "active",
+    "values": [
+      "true",
+      "false",
+      "true"
+    ]
+  },
+  {
+    "header": "enabled flag",
+    "field": "active",
+    "values": [
+      "true",
+      "false",
+      "true"
+    ]
+  }
+]

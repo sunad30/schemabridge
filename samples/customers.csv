@@ -1,0 +1,5 @@
+client_ref,customer_full_name,email_address,telephone_no,zip_code,signup_date,amount_due,enabled
+C-1001,Avery Stone,avery@example.test,+1 212 555 0101,02108,2026-01-10,18.50,true
+C-1002,Jordan Lane,jordan@example.test,+1 212 555 0102,10001,2026-02-14,0.00,yes
+C-1003,Morgan Reed,not-an-email,+1 212 555 0103,94103,02/03/2026,20.345,true
+C-1002,Casey Park,casey@example.test,+1 212 555 0104,10001,2026-03-04,3.20,false

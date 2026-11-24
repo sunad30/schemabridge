@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>SchemaBridge · Local AI workbench</title>
+    <link rel="stylesheet" href="/static/style.css" />
+    <script src="/static/app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="brand"><span class="mark">↔</span>SchemaBridge</div>
+      <span class="badge">LOCAL ML · NO API KEY</span>
+    </header>
+    <main>
+      <div class="eyebrow">Data onboarding / Review workspace</div>
+      <h1>From messy columns to trusted data.</h1>
+      <p class="intro">
+        A learned schema mapper proposes the connections. You review the
+        contract, inspect rejected rows, and export only validated records.
+      </p>
+      <div id="error" role="alert" class="error hidden"></div>
+      <div class="grid">
+        <aside>
+          <section class="panel">
+            <h2>01 / Source data</h2>
+            <p>
+              Paste a customer CSV or start with a synthetic import containing
+              deliberate data errors.
+            </p>
+            <button id="sample">Load sample CSV</button
+            ><label for="file">Or choose a local CSV</label
+            ><input id="file" type="file" accept=".csv,text/csv" /><label
+              for="csv"
+              >CSV content</label
+            ><textarea
+              id="csv"
+              spellcheck="false"
+              placeholder="customer_id,name,email…"
+            ></textarea>
+            <div class="actions">
+              <button id="analyze" class="primary">Suggest mappings</button>
+            </div>
+            <p class="small">
+              Up to 1,000 rows · 32 columns · 256 KB. Data stays on this local
+              server.
+            </p>
+          </section>
+          <section class="panel">
+            <h2>Recent imports</h2>
+            <div class="history" id="history"></div>
+          </section>
+        </aside>
+        <article>
+          <div id="empty" class="empty">
+            <div class="glyph">⇄</div>
+            <h2>Every column has a destination.</h2>
+            <p>
+              Load a CSV to see learned suggestions,<br />sample evidence, and a
+              reviewable mapping.
+            </p>
+          </div>
+          <div id="result" class="hidden">
+            <div id="stats" class="stats"></div>
+            <section class="panel">
+              <div class="panel-head">
+                <h2>02 / Review the mapping</h2>
+                <span class="tag" id="model"></span>
+              </div>
+              <div class="note">
+                Suggestions combine learned header patterns and value
+                compatibility. Scores are model outputs, not calibrated
+                certainty. Required targets: customer_id, full_name, email.
+              </div>
+              <div class="table-wrap">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Source / sample</th>
+                      <th>Target field</th>
+                      <th>Top model score</th>
+                    </tr>
+                  </thead>
+                  <tbody id="mappings"></tbody>
+                </table>
+              </div>
+              <div class="actions">
+                <button class="primary" id="review">
+                  Validate reviewed mapping
+                </button>
+              </div>
+            </section>
+            <section id="validation" class="panel hidden">
+              <div class="panel-head">
+                <h2>03 / Validation report</h2>
+                <button id="export">Export valid rows</button>
+              </div>
+              <p id="validation-summary"></p>
+              <div id="issues"></div>
+            </section>
+            <section class="panel">
+              <h2>Run provenance</h2>
+              <p id="hash" class="small"></p>
+              <div id="audit"></div>
+            </section>
+          </div>
+        </article>
+      </div>
+      <footer class="foot">
+        <span>Synthetic examples. Human-reviewed decisions.</span
+        ><a href="https://github.com/sunad30/schemabridge"
+          >Source & architecture ↗</a
+        >
+      </footer>
+    </main>
+  </body>
+</html>
